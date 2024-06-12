@@ -1,0 +1,97 @@
+body {
+  font-family: "Mulish", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: gray;
+}
+
+header {
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 7rem;
+
+  a {
+    color: #fff;
+  }
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+
+.menu {
+  display: flex;
+  li {
+    padding: 5px 20px;
+
+    .active {
+      padding-bottom: 10px;
+      border-bottom: 2px solid #fff;
+    }
+  }
+}
+
+.btn {
+  text-transform: uppercase;
+  background-color: #7971ea;
+  border-radius: 30px;
+  border: 1px solid #7971ea;
+  outline: none;
+  padding: 10px 20px;
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+
+#intro {
+  height: 100vh;
+  background-image: url("https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg.webp");
+  background-size: cover;
+  position: relative;
+  form {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 7px;
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 500;
+      line-height: 1.2;
+      color: #000;
+      margin-bottom: 1.5rem;
+    }
+    .form-group {
+      margin-bottom: 1rem;
+
+      input {
+        height: 48px;
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        color: #495057;
+        line-height: 1.5;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+
+        &:focus {
+          border-color: #7971ea;
+        }
+      }
+    }
+  }
+}
+
+#intro::before {
+  content: "";
+  background-color: #343a40;
+  opacity: 0.9;
+  position: absolute;
+  inset: 0;
+}
+.intro-content {
+  z-index: 1;
+}
