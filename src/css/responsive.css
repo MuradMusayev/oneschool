@@ -1,0 +1,35 @@
+@media screen and (max-width: 992px) {
+  header {
+    .menu,
+    .btn {
+      right: -185px;
+      transition: all 0.4s;
+    }
+    .toggle-menu-btn {
+      display: block;
+    }
+
+    .menu {
+      flex-direction: column;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+
+      padding: 20px;
+      padding-right: 40px;
+      gap: 10px;
+      background-color: #fff;
+      a {
+        color: #000;
+      }
+    }
+
+    .btn {
+      position: absolute;
+      top: 274px;
+    }
+    .close-btn {
+      display: block;
+    }
+  }
+}
