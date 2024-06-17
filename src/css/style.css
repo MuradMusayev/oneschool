@@ -15,9 +15,17 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem 7rem;
+  transition: all .4s;
 
   a {
     color: #fff;
+  }
+}
+.header-active {
+  background: #fff;
+  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
+  a {
+    color: #000;
   }
 }
 
@@ -72,6 +80,7 @@ header {
   padding: 10px 20px;
   font-size: 0.7rem;
   font-weight: 900;
+  color: #fff !important;
 }
 
 #intro {
@@ -79,6 +88,8 @@ header {
   background-image: url("https://preview.colorlib.com/theme/oneschool/images/hero_1.jpg.webp");
   background-size: cover;
   position: relative;
+  padding-top: 7rem;
+  box-sizing: content-box;
   form {
     padding: 40px;
     background-color: #fff;
@@ -182,4 +193,9 @@ header {
   top: 0;
   left: 0;
   right: 0;
+}
+
+.swiper-btn {
+  text-align: center;
+  margin-top: 25px;
 }
