@@ -15,6 +15,9 @@
 .d-flex{
   display: flex;
 }
+.reverse{
+flex-direction: row-reverse;
+}
 
 .text-center {
   text-align: center;
